@@ -1,5 +1,9 @@
+var nose_x =0;
+var nose_y =0;
+
+
 function preload() {
-clown_image = loadImage("https://i.postimg.cc/j2P3m0hk/CLOWNNOSE.png");
+clown_image = loadImage("https://i.postimg.cc/7ZBcjDqp/clownnose.png");
 
 }
 
@@ -40,7 +44,7 @@ function draw() {
 image(video,0,0,300,250);
 fill(130,12,0);
 circle(nose_x,nose_y,20);
-image(clown_image,nose_x,nose_y,30,30);
+image(clown_image,nose_x-15,nose_y-15,30,30);
 }
 
 function take_snapshot() {
